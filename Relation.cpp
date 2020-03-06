@@ -399,12 +399,10 @@ class Relation
             }
         }
 
-        do
-        {
-            i=0;
+        i=0;
             while(i<size1)
             {
-                j=i;
+                j=0;
                 flag = true;
                 while(j<size1)
                 {
@@ -422,7 +420,6 @@ class Relation
                 }
                 i++;
             }
-        }while(!flag);
         return reldash;
     }
     void displayClosure()
