@@ -386,7 +386,6 @@ class Relation
     {
         int i=0,j,temp,k;
         int **reldash;
-        bool flag = true;
         reldash = new int*[size1];
         for(i=0; i<size1; i++)
         reldash[i] = new int[size1];
